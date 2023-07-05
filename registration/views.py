@@ -9,5 +9,5 @@ def SignupPage(request):
     return render (request,'signup.html')
 
 def LoginPage(request):
-    pass
+    return render (request, 'login.html')
 

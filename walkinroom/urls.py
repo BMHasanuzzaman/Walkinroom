@@ -19,5 +19,6 @@ from registration import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.SignupPage, name='signup')
+    path('', views.SignupPage, name='signup'),
+    path('login/',views.LoginPage,name= 'login')
 ]
