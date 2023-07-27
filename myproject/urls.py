@@ -8,4 +8,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.homepage, name='home'),  # Make sure the URL pattern is named 'home'
     path('accounts/', include('accounts.urls')),
+    path('hoteladmin/', include('hoteladmin.urls')),
 ]
